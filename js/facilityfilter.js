@@ -22,7 +22,7 @@ FacilityFilter.prototype.getFilteredFeaturesGeoJson = function (conditions, nurs
     var ninkaFeatures = [];
     _features = nurseryFacilities.features.filter(function (item,idx) {
             var type = item.properties['種別'] ? item.properties['種別'] : item.properties['Type'];
-            if(type == "認可保育所") return true;
+            if(type == "認可保育園") return true;
         });
     Array.prototype.push.apply(ninkaFeatures, _features);
 
@@ -30,7 +30,7 @@ FacilityFilter.prototype.getFilteredFeaturesGeoJson = function (conditions, nurs
     var ninkagaiFeatures = [];
     _features = nurseryFacilities.features.filter(function (item,idx) {
             var type = item.properties['種別'] ? item.properties['種別'] : item.properties['Type'];
-            if(type == "認可外") return true;
+            if(type == "認可外保育園") return true;
         });
     Array.prototype.push.apply(ninkagaiFeatures, _features);
 
