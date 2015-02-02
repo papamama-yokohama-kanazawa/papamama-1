@@ -2,7 +2,7 @@
 var init_center_coords = [139.616395, 35.3451533];
 
 // Bing APIのキー
-var bing_api_key = 'AhGQykUKW2-u1PwVjLwQkSA_1rCTFESEC7bCZ0MBrnzVbVy7KBHsmLgwW_iRJg17';
+var bing_api_key = 'AuQq8I_Kg_GiXHtMy1QJsJwDwHnW06oknimmuOAZbSWzsA7mFciGftiOsbPgyuqW';
 
 // map
 var map;
