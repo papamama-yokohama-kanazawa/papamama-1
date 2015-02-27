@@ -1,21 +1,35 @@
-# 横浜市金沢区パパママMAPについて
+# 横浜市金沢区保育園マップについて
 ========
 
-横浜市金沢区内に点在する保育所（認可、認可外）、幼稚園の位置・定員情報をマッピングした地図を作成しています。
+横浜市金沢区が公開している保育所（認可、認可外）、幼稚園の位置・定員情報と,"さっぽろ保育園マップ"のソースコードをもとに作成しました。
 
-## 利用している地図について
+さっぽろ保育園マップ
+-http://www.codeforsapporo.org/papamama/
 
-地理院地図で提供している地理院タイルの地図情報を利用しています。
+## 利用データ・ライセンス
 
-- http://portal.cyberjapan.jp/help/development/ichiran.html
+横浜市金沢区（認可保育園/認可外保育園/認定こども園/幼稚園、小学校、中学校）、
+国土数値情報（小学校区、中学校区、鉄道(駅)）、
+地理院地図、OpenStreetMap、Bing Maps API
 
-## 提供されるデータについて
+横浜市金沢区データポータル
 
-横浜市金沢区で公開している保育所データ、および、国土数値情報ダウンロードサービスから入手できる福祉施設情報を元に独自のCSVデータを作成し利用しています。
+http://www.city.yokohama.lg.jp/kanazawa/kz-opendata/kz-opendata.html
 
-- http://www.city.yokohama.lg.jp/kanazawa/kz-opendata/kz-opendata.html
-- http://nlftp.mlit.go.jp/ksj/index.html
+国土数値情報
 
-## ライセンスについて
+http://nlftp.mlit.go.jp/ksj/index.html
 
-このソフトウェアは、MITライセンスでのもとで公開されています。LICENSE.txtを見てください。
+地理院地図 地理院タイル
+
+http://portal.cyberjapan.jp/help/development/ichiran.html
+
+Bing Maps API
+
+http://portal.cyberjapan.jp/help/development/ichiran.html
+
+OpenStreetMap
+
+http://www.openstreetmap.org/about
+
+横浜市金沢区保育園マップのライセンス：CC-BY-SA 4.0
